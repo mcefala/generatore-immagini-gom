@@ -1,0 +1,1 @@
+virtualenv venv & cd venv/Scripts/ & activate.bat & cd .. & cd .. & pip3 install -r requirements.txt & python generator.py & cd venv/Scripts & deactivate.bat & cd.. & cd.. & rmdir /S /Q venv 
